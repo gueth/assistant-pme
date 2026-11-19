@@ -1,0 +1,60 @@
+body {
+  font-family: system-ui, sans-serif;
+  background: #f5f6f8;
+  color: #1d2330;
+  margin: 0;
+}
+main {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 24px 16px;
+}
+section {
+  background: #fff;
+  border-radius: 8px;
+  padding: 16px;
+  margin-bottom: 20px;
+}
+textarea,
+input:not([type="checkbox"]),
+select {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 8px;
+  margin-bottom: 8px;
+  font: inherit;
+}
+textarea {
+  min-height: 80px;
+}
+.ligne {
+  display: flex;
+  gap: 12px;
+  align-items: end;
+  flex-wrap: wrap;
+}
+button {
+  padding: 8px 16px;
+  background: #2d5bd7;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.badge {
+  font-size: 0.85em;
+  color: #2d5bd7;
+}
+.texte {
+  white-space: pre-wrap;
+}
+.confidentiel {
+  font-size: 0.75em;
+  background: #fde8e8;
+  color: #b42318;
+  padding: 2px 6px;
+  border-radius: 4px;
+}
+.erreur {
+  color: #b42318;
+}
